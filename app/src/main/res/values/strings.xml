@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="tap_here_to_type">Tap here to type</string>
+    <string name="is_typing">is typing...</string>
+
 </resources>

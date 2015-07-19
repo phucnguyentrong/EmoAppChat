@@ -2,4 +2,36 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_send">50dp</dimen>
+    <dimen name="default_keyboard_height">250dp</dimen>
+    <dimen name="sticker_shop_item_width_height">100dp</dimen>
+
+    <!-- StixChat margin-padding -->
+    <dimen name="stixchat_margin_4">4dp</dimen>
+    <dimen name="stixchat_margin_8">8dp</dimen>
+    <dimen name="stixchat_margin_12">12dp</dimen>
+    <dimen name="stixchat_margin_16">16dp</dimen>
+    <dimen name="stixchat_margin_24">24dp</dimen>
+    <dimen name="btn_add_size">50dp</dimen>
+
+    <!-- StixChat text size -->
+    <dimen name="stixchat_text_size_32">32sp</dimen>
+    <dimen name="stixchat_text_size_24">24sp</dimen>
+    <dimen name="stixchat_text_size_22">22sp</dimen>
+    <dimen name="stixchat_text_size_20">20sp</dimen>
+    <dimen name="stixchat_text_size_18">18sp</dimen>
+    <dimen name="stixchat_text_size_16">16sp</dimen>
+    <dimen name="stixchat_text_size_14">14sp</dimen>
+    <dimen name="stixchat_text_size_12">12sp</dimen>
+    <dimen name="stixchat_text_size_10">10sp</dimen>
+    <dimen name="stixchat_text_size_6">6sp</dimen>
+
+    <dimen name="conner_avatar">4dp</dimen>
+
+    <dimen name="margin_item_chat_right">30dp</dimen>
+    <dimen name="stixchat_icon_size_touch">48dp</dimen>
+    <dimen name="chat_width_item">270dp</dimen>
+    <item name="chat_text_spacing" format="float" type="dimen">1.1</item>
+    <dimen name="no_conversation_img_size">120dp</dimen>
+
 </resources>

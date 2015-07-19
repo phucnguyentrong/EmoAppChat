@@ -5,4 +5,39 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="StixChatText">
+        <item name="android:textSize">@dimen/stixchat_text_size_16</item>
+        <item name="android:textColor">@color/stixchat_text_87</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="StixChatText.Primary" parent="@style/StixChatText" />
+
+    <style name="StixChatText.Primary.Light" parent="@style/StixChatText.Primary"/>
+
+    <style name="StixChatText.SecondaryBase.Medium" parent="@style/StixChatText.Secondary">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/stixchat_text_54</item>
+    </style>
+
+    <style name="StixChatText.Secondary" parent="@style/StixChatText.SecondaryBase" />
+
+    <style name="StixChatText.SecondaryBase">
+        <item name="android:textSize">@dimen/stixchat_text_size_14</item>
+        <item name="android:textColor">@color/stixchat_text_54</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="StixChatText.AllCapsBase">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/stixchat_text_size_14</item>
+        <item name="android:textColor">@color/stixchat_text_87</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="StixChatText.SwitcherBase">
+        <item name="android:textSize">@dimen/stixchat_text_size_12</item>
+        <item name="android:textColor">@color/stixchat_text_0</item>
+        <item name="android:textStyle">normal</item>
+    </style>
 </resources>
