@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StixChatText.Primary.Medium" parent="@style/StixChatText.Primary">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/stixchat_text_87</item>
+    </style>
+    <style name="StixChatText.Secondary.Medium" parent="@style/StixChatText.SecondaryBase.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/stixchat_text_87</item>
+    </style>
+</resources>

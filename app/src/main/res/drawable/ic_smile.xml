@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:drawable="@mipmap/emo_smile" android:state_enabled="true" android:state_focused="true" />-->
+    <!--<item android:drawable="@mipmap/emo_smile" android:state_enabled="true" android:state_pressed="true" />-->
+    <!--<item android:drawable="@mipmap/emo" android:state_enabled="false" android:state_focused="true" />-->
+    <!--<item android:drawable="@mipmap/emo" android:state_enabled="false" android:state_pressed="true" />-->
+    <!--<item android:drawable="@mipmap/emo_smile" android:state_enabled="false" />-->
+    <!--<item android:drawable="@mipmap/emo" android:state_enabled="true" />-->
+    <item android:drawable="@drawable/ic_emotion_sticker_on" android:state_selected="false" />
+    <item android:drawable="@drawable/ic_emotion_sticker_off" android:state_selected="true" />
+</selector>

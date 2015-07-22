@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/sticker_shop_item_width_height"
+    android:layout_height="@dimen/sticker_shop_item_width_height"
+    android:padding="@dimen/stixchat_margin_8">
+
+    <ImageView
+        android:id="@+id/imgSticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/start_chat" />
+
+</RelativeLayout>

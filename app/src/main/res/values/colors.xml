@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_hint">#b3b3b3</color>
+    <color name="btn_goto_shop">#e3a140</color>
+    <color name="item_selected">#e0e0e0</color>
+    <color name="item_default">#f7f7f7</color>
+
+    <color name="stixchat_text_100">#000</color>
+    <color name="stixchat_text_87">#444</color>
+    <color name="stixchat_text_54">#777</color>
+    <color name="stixchat_text_26">#999</color>
+    <color name="stixchat_text_26_opa">#6999</color>
+    <color name="stixchat_text_0">#FFF</color>
+
+    <color name="black">#ff000000</color>
+
+
+    <color name="profile1">#f0878c</color>
+    <color name="profile2">#76bbe8</color>
+    <color name="profile3">#bace9b</color>
+    <color name="profile4">#f0878c</color>
+    <color name="profile5">#76bbe8</color>
+    <color name="profile6">#c198f0</color>
+    <color name="profile7">#90d78c</color>
+    <color name="profile8">#ddd8de</color>
+
+    <color name="chat_sticker6">#b0d0f9</color>
+    <color name="white_transparent_more">#40ffffff</color>
+
+    <color name="red1">#990000</color>
+    <color name="green1">#009900</color>
+    <color name="blue1">#000099</color>
+    <color name="orange1">#FF9900</color>
+    <color name="bg_page">#EBEBEB</color>
+
+</resources>

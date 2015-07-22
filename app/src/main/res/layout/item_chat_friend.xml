@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/stixchat_margin_8"
+    android:layout_marginRight="@dimen/margin_item_chat_right"
+    android:layout_marginTop="@dimen/stixchat_margin_8">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/stixchat_icon_size_touch"
+        android:layout_height="@dimen/stixchat_icon_size_touch"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/stixchat_margin_8"
+        android:background="@drawable/chat_sticker_6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_results" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/avatar"
+        android:layout_toRightOf="@+id/avatar"
+        android:background="@drawable/bubble_left_brown"
+        android:text="New Text"
+        android:lineSpacingMultiplier="@dimen/chat_text_spacing"
+        android:textAppearance="@style/StixChatText.Primary.Light"
+        android:textColor="@android:color/white" />
+
+
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/box_checkk"
+        android:padding="@dimen/stixchat_margin_16"/>
+
+    <RelativeLayout
+        android:id="@+id/item_chat_status_root"
+        android:layout_below="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_marginLeft="@dimen/stixchat_margin_8"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/item_chat_status_img"
+            android:text="20:20"
+            android:id="@+id/item_chat_status_tv" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StixChatText.Primary" parent="@style/StixChatText">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="StixChatText.Primary.Light" parent="@style/StixChatText.Primary">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="StixChatText.Primary.Thin" parent="@style/StixChatText.Primary">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@color/stixchat_text_87</item>
+    </style>
+    <style name="StixChatText.Secondary" parent="@style/StixChatText.SecondaryBase">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="StixChatText.Secondary.Light" parent="@style/StixChatText.Secondary">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/stixchat_text_54</item>
+    </style>
+    <style name="StixChatText.Secondary.Thin" parent="@style/StixChatText.Secondary">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@color/stixchat_text_54</item>
+    </style>
+    <style name="StixChatText.AllCaps" parent="@style/StixChatText.AllCapsBase">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="StixChatText.Switcher" parent="StixChatText.SwitcherBase">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

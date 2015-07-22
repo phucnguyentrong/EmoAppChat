@@ -1,0 +1,15 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:numColumns="4"
+    android:stretchMode="columnWidth"
+    android:listSelector="@null"
+    android:clipToPadding="false"
+    android:scrollbars="none"
+    android:background="@drawable/border"
+    android:layout_margin="5dp">
+
+</GridView>
